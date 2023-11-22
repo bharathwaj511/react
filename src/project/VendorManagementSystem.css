@@ -1,0 +1,72 @@
+/* VendorManagementSystem.css */
+
+/* Container styles */
+.vendor-management-container {
+  padding: 20px;
+  background-color: #111;
+  color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Heading styles */
+.vendor-management-heading {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #e50914; /* Netflix red color */
+}
+
+/* Flex container styles */
+.vendor-management-flex-container {
+  display: flex;
+}
+
+/* Vendor List styles */
+.vendor-list {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.vendor-list h2 {
+  font-size: 24px;
+  color: #fff;
+}
+
+.vendor-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.vendor-list li {
+  cursor: pointer;
+  padding: 12px;
+  margin-bottom: 12px;
+  background-color: #222;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease;
+}
+
+.vendor-list li:hover {
+  background-color: #e50914; /* Netflix red color on hover */
+}
+
+/* Vendor Details styles */
+.vendor-details {
+  flex: 2;
+  background-color: #222;
+  border-radius: 4px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.vendor-details h2 {
+  font-size: 24px;
+  color: #e50914; /* Netflix red color */
+  margin-bottom: 16px;
+}
+
+.vendor-details p {
+  margin-bottom: 12px;
+  color: #fff;
+}
